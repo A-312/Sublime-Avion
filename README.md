@@ -1,6 +1,12 @@
-# Sublime avion
+# Sublime Avion
 
-It's a Sublime Text 3 plugin.
+It's a Sublime Text 3 plugin with several commands / features.
+
+# TODO
+
+ - Add Sublime Avion in Package Control.
+ - Add shortcut.
+ - Make a documentation (gulp & github.io page) or github Wiki.
 
 # Commands
 
@@ -22,7 +28,8 @@ You can comment this line with : `# ` or `//`.
 ### TODO :
 
  - Replace old output (don't make duplicate).
- - Add more attribute (boolean) : dir, dironly, recursive, file
+ - Add more attribute (boolean) : dir, dironly, recursive, file.
+ - Add regex filter include and exclude.
 
 ### Example :
 
