@@ -14,7 +14,7 @@ It's a Sublime Text 3 plugin with several commands / features.
 
 This command will print a file list in your folder. 
 
-```
+``` html
 <!-- pre="{pwd}" path='{path}' template='{template}"></script>' -->
 ```
 
@@ -37,14 +37,14 @@ You can comment this line with : `# ` or `//`.
 
 www/index.html :
 
-```
+``` html
 <head>
     <!-- pre="../asset/" path='/javascript/chat' template='<script type="text/javascript" src="{0}"></script>'  -->
 ```
 
 Output :
 
-```
+``` html
 <head>
     <!-- pre="../asset/" path='/javascript/chat' template='<script type="text/javascript" src="{0}"></script>'  -->
     <script type="text/javascript" src="/javascript/chat/i2n/translation/en.js"></script>
@@ -63,14 +63,14 @@ www/index.html
 
 main.py
 
-```
+``` py
 def run():
     # <!-- path='changelog/' template='file = "{0}"'  -->
 ```
 
 Output :
 
-```
+``` py
 def run():
     # <!-- path='changelog/' template='file = "{0}"'  -->
     file = 'version1.txt'
