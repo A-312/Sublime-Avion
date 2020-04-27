@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+<![CDATA[Object.keys(${2:${1:obj}s}).forEach((${3:key}) => {
+  const ${4:${1:obj}} = ${2:${1:obj}s}[${3:key}]
+  ${5:}
+})]]>
+  </content>
+  <tabTrigger>Object</tabTrigger>
+  <description>Object.keys(obj).forEach(...)</description>
+  <scope>source.js</scope>
+</snippet>
