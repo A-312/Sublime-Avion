@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+<![CDATA[forEach((${1:val}) => {
+  ${1:val}${2:}
+})]]>
+  </content>
+  <tabTrigger>each</tabTrigger>
+  <description>{obj}.forEach(...)</description>
+  <scope>source.js</scope>
+</snippet>
